@@ -341,12 +341,12 @@
       <option name="presentableId" value="Default" />
       <updated>1517932070720</updated>
       <workItem from="1517932071970" duration="7055000" />
-      <workItem from="1517952797851" duration="568000" />
+      <workItem from="1517952797851" duration="619000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7623000" />
+    <option name="totallyTimeSpent" value="7674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="-59" width="1720" height="1348" extended-state="0" />
@@ -487,8 +487,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="170">
-            <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
             <folding />
           </first_editor>
           <second_editor />
