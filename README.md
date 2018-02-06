@@ -1,10 +1,14 @@
 # README #
 
-npm install
-npm install gulp
-npm install bower
-bower install --save
-npm install --save
+## Installing
+
+* npm install
+* nnpm install gulp
+* nnpm install bower
+* bower install --save
+* npm install --save
+
+## Usage
 
 Gulp serve - compile sass / browser sync
 
