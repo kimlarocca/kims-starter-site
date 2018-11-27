@@ -1,73 +1,87 @@
-// Design
-$width: 100%;
-$margin: 25px;
+$breakpoint-tablet: 1200px;
+$breakpoint-mobile: 768px;
+$nav-breakpoint: 1100px;
 
-//Global colors
+//Colors
 $background-color: #fff;
-$gray: #ccc;
-$light-gray: #e3e3e3;
-$dark-gray: #333;
-$primary-color: #003877;
-$secondary-color: #932923;
-$tertiary-color: #00448f;
-$quaternary-color: #00ccff;
+$light-gray: #f0f0f0;
+$medium-gray: #ccc;
+$dark-gray: #4d4d4f;
+$primary-color: #005199;
+$secondary-color: #57B8FF;
+$tertiary-color: #FE6847;
+$quaternary-color: #005199;
 
-//Font colors
-$font-color: #000;
-$link-color: #932923;
-$link-color-hover: #00448f;
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,700');
+$primary-font-family: 'Noto Sans TC', sans-serif;
+$secondary-font-family: 'Noto Sans TC', sans-serif;
 
-.white {
-  color: #fff;
-}
-.black {
-  color: #000;
-}
-.gray {
-  color: $gray;
-}
-.light-gray {
-  color: $light-gray;
-}
-.dark-gray {
-  color: $dark-gray;
-}
-.primary-color {
-  color: $primary-color;
-}
-.secondary-color {
-  color: $secondary-color;
-}
-.tertiary-color {
-  color: $tertiary-color;
-}
-.quaternary-color {
-  color: $quaternary-color;
-}
-.white-bg {
-  color: #fff;
-}
-.black-bg {
-  color: #000;
-}
-.gray-bg {
-  background-color: $gray;
-}
-.light-gray-bg {
-  background-color: $light-gray;
-}
-.dark-gray-bg {
-  background-color: $dark-gray;
-}
-.primary-color-bg {
-  background-color: $primary-color;
-}
-.secondary-color-bg {
-  background-color: $secondary-color;
-}
-.tertiary-color-bg {
-  background-color: $tertiary-color;
-}
-.quaternary-color-bg {
-  background-color: $quaternary-color;
-}
+//Typography
+$h1-font-family: $primary-font-family;
+$h1-size: 45px;
+$h1-weight: 400;
+$h1-color: $primary-color;
+$h1-line-height: 1.25em;
+$h1-margin: 30px;
+$h1-transform: none;
+
+$h2-font-family: $primary-font-family;
+$h2-size: 40px;
+$h2-weight: 400;
+$h2-color: $secondary-color;
+$h2-line-height: 1.25em;
+$h2-margin: 30px;
+$h2-transform: none;
+
+$h3-font-family: $primary-font-family;
+$h3-size: 35px;
+$h3-weight: 700;
+$h3-color: $tertiary-color;
+$h3-line-height: 1.5em;
+$h3-margin: 30px;
+$h3-transform: none;
+
+$h4-font-family: $primary-font-family;
+$h4-size: 16px;
+$h4-weight: 700;
+$h4-color: black;
+$h4-line-height: 1.5em;
+$h4-margin: 20px;
+$h4-transform: none;
+
+$p-font-family: $primary-font-family;
+$p-size: 16px;
+$p-weight: 400;
+$p-color: black;
+$p-line-height: 1.5em;
+$p-margin: 30px;
+$p-transform: none;
+
+//Links
+$link-color: $tertiary-color;
+$link-decoration: none;
+$link-color-hover: $secondary-color;
+$link-decoration-hover: none;
+
+//Buttons
+$button-font: $primary-font-family;
+$button-font-size: 16px;
+$button-font-color: white;
+$button-font-weight: 400;
+$button-text-transform: capitalize;
+$button-background-color: $secondary-color;
+$button-border: none;
+$button-background-color-hover: $primary-color;
+$button-font-color-hover: white;
+$button-border-hover: none;
+$button-padding: 15px 50px;
+$button-transition: .25s all linear;
+
+//Lists
+$ul-margin: 0 0 20px 0;
+$li-content: '\2022'; //set to a bullet ('\2022') by default
+$li-content-color: $secondary-color;
+$li-content-size: 16px;
+$li-content-distance-from-top: 0;
+$li-content-distance-from-left: 20px;

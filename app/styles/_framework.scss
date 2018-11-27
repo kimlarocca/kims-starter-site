@@ -1,7 +1,7 @@
 /* KIM'S FRAMEWORK */
 
-$breakpoint-mobile: 600px;
-$breakpoint-tablet: 1175px;
+$breakpoint-tablet: 1200px;
+$breakpoint-mobile: 768px;
 
 /* GRID SYSTEM */
 .bs_row {
@@ -441,7 +441,7 @@ $breakpoint-tablet: 1175px;
 }
 
 //***
-//custom grids - 
+//custom grids -
 //***
 
 .bs_rowCustom {
@@ -522,20 +522,19 @@ $breakpoint-tablet: 1175px;
 }
 
 @media all and (max-width: $breakpoint-tablet) {
+  .bs_3to2,
+  .bs_4to2,
+  .bs_5to2,
+  .bs_6to2,
   .bs_4to2to1 {
     margin: 0 2% 2% 2%;
     flex-basis: 46% !important;
-    align-items: flex-end;
   }
 }
 
 @media all and (max-width: $breakpoint-mobile) {
-  .bs_3to2,
-  .bs_4to2,
-  .bs_5to2,
-  .bs_6to2 {
-    margin: 0 2% 2% 2%;
-    flex-basis: 46% !important;
+  .bs_rowCustom {
+    flex-direction: row;
   }
   .bs_4to2to1 {
     margin: 0 2% 2% 2%;
